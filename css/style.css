@@ -32,6 +32,11 @@ h1, .h1 {
     font-family: 'nooks_bold_s';
 }
 
+h2, .h2 {
+    font-size: 36px;
+    font-family: 'nooks_reg';
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -126,6 +131,51 @@ header h1 {
     display: inline-block;
 }
 
+#prez {
+    background: url('../img/prez_bg.png')no-repeat center;
+    padding: 50px 0;
+}
+
+.prez_paralax {
+    background: url('../img/prez_bg_paralax.png')no-repeat center;
+}
+
+.prez_info {
+    margin: 285px 0;
+}
+
+.prez_video {
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+}
+
+.btn-video {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 0 0 0 10px;
+}
+
+.prez_video_text {
+    font-size: 16px;
+}
+
+.text-video-big {
+    font-size: 32px;
+    line-height: 1;
+}
+
+.prez_bottom_text {
+    opacity: .35;
+    right: 100px;
+    bottom: -125px;
+}
+
+.prez_bottom_text .title {
+    font-size: 32px;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
@@ -134,5 +184,11 @@ header h1 {
 
     #info .sub_title {
         padding: 0 35px;
+    }
+
+    .prez_video {
+        top: 133px;
+        margin-top: 0;
+        left: 0;
     }
 }
