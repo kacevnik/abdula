@@ -51,6 +51,7 @@ h1, .h1 {
     border: transparent;
     padding: 30px 45px;
     border-radius: 50px;
+    box-shadow: 0px 5px 15px 6px rgba(232, 165, 1, 0.4);
 }
 
 .btn-primary:hover {
@@ -99,8 +100,39 @@ header h1 {
     margin: 0 0 45px 0;
 }
 
+#info {
+    padding: 40px 0 100px 0;
+}
+
+#info .col-md-4 {
+    line-height: 0.9;
+}
+
+#info .title {
+    font-family: 'nooks_reg';
+    font-size: 86px;
+    min-height: 189px;
+    background: rgb(232,173,22);
+    background: linear-gradient(90deg, rgba(232,173,22,1) 0%, rgba(207,120,23,1) 100%);
+    -webkit-background-clip: text;  /* подробнее про background-clip */ 
+    color: transparent;
+    text-shadow: 0px 15px 1px #d7831033;
+}
+
+#info .sub_title {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 57px;
+    display: inline-block;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
+        padding-bottom: 20px;
+    }
+
+    #info .sub_title {
+        padding: 0 35px;
     }
 }
