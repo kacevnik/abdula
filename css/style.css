@@ -1,0 +1,32 @@
+@font-face {
+      font-family: 'quiza';
+      src:  url('../fonts/quiza_pro_regular.eot?') format("eot"),
+        url('../fonts/quiza_pro_regular.ttf') format("truetype"),
+        url('../fonts/quiza_pro_regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'nooks_bold_s';
+    src:  url('../fonts/nooks_bold_s.eot?') format("eot"),
+      url('../fonts/nooks_bold_s.ttf') format("truetype"),
+      url('../fonts/nooks_bold_s.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'nooks_reg';
+    src:  url('../fonts/nooks_reg.eot?') format("eot"),
+      url('../fonts/nooks_reg.ttf') format("truetype"),
+      url('../fonts/nooks_reg.woff') format("woff");
+}
+
+body {
+    font-family: 'quiza';
+    font-size: 20px;
+    background: #000;
+}
+
+h1, .h1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-family: 'nooks_bold_s';
+}
