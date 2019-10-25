@@ -155,6 +155,7 @@ header h1 {
     width: 100px;
     text-align: center;
     padding: 0 0 0 10px;
+    line-height: 100px;
 }
 
 .prez_video_text {
