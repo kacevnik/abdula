@@ -177,6 +177,26 @@ header h1 {
     font-size: 32px;
 }
 
+#profit h2 {
+    margin-bottom: 50px;
+}
+
+.profit_text {
+    left: 30px;
+    bottom: 30px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.profit_profit {
+    padding-left: 35px;
+}
+
+#profit .btn-primary {
+    font-size: 20px;
+    padding: 30px 55px;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
@@ -199,6 +219,15 @@ header h1 {
     .prez_video {
         top: 133px;
         margin-top: 0;
-        left: 0;
+        left: auto;
+    }
+
+    .profit_text {
+        font-size: 20px;
+    }
+
+    #profit .btn-primary {
+        font-size: 18px;
+        padding: 30px 35px;
     }
 }
