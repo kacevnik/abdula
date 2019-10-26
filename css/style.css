@@ -66,6 +66,10 @@ h2, .h2 {
     opacity: .9;
 }
 
+.swiper-button-next:focus, .swiper-button-prev:focus {
+    outline: none;
+}
+
 header {
     padding: 20px 0 0 0;
     background: url('../img/header.png')no-repeat center;
@@ -198,7 +202,7 @@ header h1 {
 }
 
 #format {
-    padding: 150px 0;
+    padding: 150px 0 200px;
     background: url(../img/format_bg.png)no-repeat center;
     background-size: cover;
 }
@@ -274,6 +278,97 @@ header h1 {
     color: #efad1a;
     font-size: 95px;
     text-shadow: -1px 4px 20px rgba(239, 173, 26, 0.7);
+}
+
+#party {
+    padding: 100px 0;
+}
+
+#party h2 {
+    margin-bottom: 100px;
+}
+
+#party .party-swiper-button-next, #party .party-swiper-button-prev {
+    color: #f0ad0f;
+    border-radius: 50%;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#party .party-swiper-button-next:after, #party .party-swiper-button-prev:after {
+    font-family: swiper-icons;
+}
+
+#party .party-swiper-button-next:focus, #party .party-swiper-button-prev:focus {
+    outline: none;
+}
+
+#party .party-swiper-button-next:after {
+    content: 'next';
+}
+
+#party .party-swiper-button-prev:after {
+    content: 'prev';
+}
+
+#party .party-swiper-button-next {
+    right: -80px;
+}
+
+#party .party-swiper-button-prev {
+    left: -80px;
+}
+
+#party .party-swiper-button-next:hover, #party .party-swiper-button-prev:hover {
+    border: 2px solid #f0ad0f;
+}
+
+.swiper-pagination-party {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#party .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #f0ad0f;
+    opacity: 1;
+    margin-right: 8px;
+}
+
+#party .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#party .swiper-slide a img {
+    border-radius: 10px;
+}
+
+#party .swiper-slide a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/party_search.png)no-repeat center center;
+}
+
+#party .swiper-slide a:hover::after {
+    background: url(../img/party_search_hover.png)no-repeat center center;
+}
+
+#party .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #f0ad0f;
 }
 
 @media (max-width: 768px) {
