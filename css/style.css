@@ -530,6 +530,18 @@ header h1 {
     bottom: 15px;
 }
 
+#suport {
+    padding: 100px 0;
+}
+
+#suport .suport_text {
+    padding: 0 45px;
+}
+
+#suport h2 {
+    margin-bottom: 75px;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
