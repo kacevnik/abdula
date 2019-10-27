@@ -531,15 +531,48 @@ header h1 {
 }
 
 #suport {
-    padding: 100px 0;
-}
-
-#suport .suport_text {
-    padding: 0 45px;
+    padding: 100px 0 30px 0;
 }
 
 #suport h2 {
     margin-bottom: 75px;
+}
+
+#video {
+    padding: 100px 0;
+}
+
+#video h2 {
+    margin-bottom: 75px;
+}
+
+.video_item {
+    color: #fff;
+}
+
+.video_item:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.video_city {
+    top: 20px;
+    position: absolute;
+    left: 30px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.video_play {
+    font-size: 16px;
+    top: 50%;
+    margin-top: -63px;
+    left: 50%;
+    margin-left: -63px;
+}
+
+.video_item:hover .video_play {
+    opacity: 0.7;
 }
 
 @media (max-width: 768px) {
@@ -622,5 +655,9 @@ header h1 {
 
     #prez_2 .btn_pramery {
         bottom: -65px;
+    }
+
+    #suport .suport_text {
+        padding: 0 45px;
     }
 }
