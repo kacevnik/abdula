@@ -121,4 +121,9 @@ jQuery( document ).ready( function( $ ) {
         $(this).parents('.form_input').removeClass('active');
     });
 
+    //Иницилизация и отправка плагина AjaxForm отправки даных из форм
+    $('form').ajaxForm(function(){
+        $('form').clearForm();
+    });
+
 });
