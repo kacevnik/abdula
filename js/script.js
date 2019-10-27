@@ -113,4 +113,12 @@ jQuery( document ).ready( function( $ ) {
         showProcess();
     }
 
+    $('footer input').focus(function(){
+        $(this).parents('.form_input').addClass('active');
+    });
+
+    $('footer input').focusout(function(){
+        $(this).parents('.form_input').removeClass('active');
+    });
+
 });
