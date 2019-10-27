@@ -9,11 +9,28 @@ jQuery( document ).ready( function( $ ) {
         }
     }
 
+    function imgVideo_2(){
+        if($(window).width() >= 768){
+            const img_video_2 = $('.prez_video_img_2');
+            $('.prez_video_2').css({'left': img_video_2.width()/2 - 50});
+        } else {
+            $('.prez_video_2').css({'left': ($('.prez_video_2').parents('.row.position-relative').width() - $('.prez_video_2').width())/2});
+        }
+    }
+
+    function prezBtn(){
+        $('#prez_2 .btn_pramery').css({'left': ($('#prez_2 .prez_video_img_2').outerWidth() - $('#prez_2 .btn_pramery').outerWidth())/2});
+    }
+
     $(window).resize(function() {
         imgVideo();
+        imgVideo_2();
+        prezBtn();
     });
 
     imgVideo();
+    imgVideo_2();
+    prezBtn();
 
     var swiper = new Swiper('.format_swiper', {
         slidesPerView: 1,

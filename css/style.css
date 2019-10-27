@@ -498,6 +498,38 @@ header h1 {
     border-bottom: 1px dashed #efad1a;
 }
 
+#prez_2 {
+    padding: 100px 0 50px 0;
+    background: url(../img/prez_bg_2.png)no-repeat center;
+    background-size: cover;
+}
+
+#prez_2 .prez_info {
+    margin: 130px 0;
+}
+
+.prez_video_2 {
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+}
+
+#prez_2 .btn_pramery {
+    color: #fff;
+    border: 2px solid #efad1a;
+    padding: 30px 45px;
+    border-radius: 50px;
+    bottom: 15px;
+}
+
+#prez_2 .btn_pramery:hover {
+    opacity: .7;
+}
+
+#prez_2 .prez_bottom_text {
+    bottom: 15px;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
@@ -561,5 +593,22 @@ header h1 {
 
     .process_slide {
         display: none;
+    }
+
+    .prez_video_2 {
+        top: 133px;
+        margin-top: 0;
+        left: auto;
+    }
+    #prez_2 {
+        background: url(../img/prez_bg_2.png)no-repeat -285px center;
+    }
+
+    #prez_2 .prez_info {
+        margin: 100px 0;
+    }
+
+    #prez_2 .btn_pramery {
+        bottom: -65px;
     }
 }
