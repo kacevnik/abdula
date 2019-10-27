@@ -371,6 +371,70 @@ header h1 {
     background: #f0ad0f;
 }
 
+#process {
+    padding: 0 0 100px 0;
+    background: url(../img/process_bg.png)no-repeat center;
+}
+
+#process h2 {
+    margin-bottom: 50px;
+}
+
+#process .sub_title {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.process_tabs_item {
+    border-radius: 10px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 0 35px 0 20px;
+    display: flex;
+    align-items: center;
+    background: #1e1915;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.process_tabs_item.active {
+    color: #31261d;
+    background: #f0ad0f;
+}
+
+.process_img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.process_count {
+    right: 30px;
+    bottom: -90px;
+}
+
+.process_count .big {
+    font-size: 95px;
+    font-weight: 700;
+    text-shadow: -1px 4px 20px rgba(239, 173, 26, 0.7);
+}
+
+.process_count .small {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#process .title {
+    font-size: 36px;
+}
+
+.process_show_tab {
+    display: none;
+}
+
+.process_show_tab:first-child {
+    display: block;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
@@ -408,7 +472,6 @@ header h1 {
 
     .format_slide_content {
         bottom: auto;
-        width: 100%;
         left: auto;
         z-index: 2;
         padding: 20px 0;
@@ -427,5 +490,13 @@ header h1 {
         font-weight: 700;
         bottom: auto;
         top: -110px;
+    }
+
+    #party {
+        margin-top: 100px;
+    }
+
+    .process_slide {
+        display: none;
     }
 }
