@@ -435,6 +435,69 @@ header h1 {
     display: block;
 }
 
+#steps {
+    padding: 70px 0;
+}
+
+#steps h2 {
+    margin-bottom: 100px;
+}
+
+.steps_item {
+    width: 140px;
+    height: 140px;
+    margin: 0px auto 5px auto;
+    padding: 20px 0 0 0;
+}
+
+.steps_item:before {
+    font-weight: 700;
+    position: absolute;
+    top: -29px;
+    right: -36px;
+    font-size: 81px;
+    z-index: -1;
+    color: #eaab30;
+    opacity: 0.2;
+}
+
+.steps_item_1:before {
+    content: '01';
+}
+
+.steps_item_2:before {
+    content: '02';
+}
+
+.steps_item_3:before {
+    content: '03';
+}
+
+.steps_item_4:before {
+    content: '04';
+}
+
+.steps_item_5:before {
+    content: '05';
+}
+
+#steps .text {
+    padding: 0 20px;
+}
+
+.download_steps:hover {
+    text-decoration: none;
+    color: #efad1a;
+}
+
+.download_steps:hover span {
+    border-bottom: 1px solid transparent;
+}
+
+.download_steps span {
+    border-bottom: 1px dashed #efad1a;
+}
+
 @media (max-width: 768px) {
     header {
         background: url('../img/header.png')no-repeat -238px center;
