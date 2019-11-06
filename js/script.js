@@ -1,5 +1,7 @@
 jQuery( document ).ready( function( $ ) {
 
+    new WOW().init();
+
     function imgVideo(){
         if($(window).width() >= 768){
             const img_video = $('.prez_video_img');
