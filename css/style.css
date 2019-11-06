@@ -710,4 +710,16 @@ footer .btn-primary {
     #suport .suport_text {
         padding: 0 45px;
     }
+
+    .process_tabs_item:after {
+        content: '▼';
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        margin-top: -13px;
+    }
+
+    .process_tabs_item.active:after {
+        color: #000;
+    }
 }
